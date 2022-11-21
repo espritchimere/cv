@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Inputs</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Input Types</legend>
+
+      <div>
+        <label for="check">Check Me</label>
+      <input type="checkbox" id="check" name="check">
+      </div><br>
+
+      <div>
+        <label for="palette">Palette, Choose your Color:</label>
+        <input type="color" id="palette" name="palette">
+      </div><br>
+
+      <div>
+        <label for="calendar">What's the date?</label>
+        <input type="date" id="calendar" name="calendar">
+      </div><br>
+
+      <div>
+        <label for="time">Specific Date and Time:</label>
+        <input type="datetime-local" id="time" name="time">
+      </div><br>
+
+      <div>
+        <label for="email">Enter Email:</label>
+        <input type="email" id="email" pattern=".+@globex\.com">
+      </div><br>
+
+      <div>
+        <label for="files">Select Your File:</label>
+        <input type="file" id="files" name="files" accept="image/gif, image/jpeg">
+      </div><br>
+
+      <div>
+        <label for="start">Start month:</label>
+        <input type="month" id="start" name="start" min="2022-01" value="2022-12">
+      </div><br>
+
+      <div>
+        <label for="tentacles">Number of tentacles (01-100):</label>
+        <input type="number" id="tentacles" name="tentacles" min="01" max="100">
+      </div>
+
+    </fieldset>
+
+  </body>
+</html>
